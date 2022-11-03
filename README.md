@@ -20,3 +20,9 @@ Below are the environment variable set by HackPkg
   | HACKPKG_PROGRAM_DIR | /opt |
 
 
+There are also some variables HackPkg expects the installers to return
+
+  | Key | Value |
+  | --- | --- |
+  | HACKPKG_INSTALL_SRC | URL |
+  | HACKPKG_INSTALL_DST | local directory e.g /usr/local/bin/nmap |
